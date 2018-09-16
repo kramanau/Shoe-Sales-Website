@@ -1,0 +1,24 @@
+{
+  "name": "shoesaleslisting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "frontend-install": "npm install --prefix frontend",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "author": "Karolis Ramanauskas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
