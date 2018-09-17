@@ -4,3 +4,5 @@ created a CSV file to upload to the mongo database. The website fetched data fro
 information on the website.
 
 Screenshot of the website can be found in the folder.
+
+The website was created using React, Express, and Node.js
