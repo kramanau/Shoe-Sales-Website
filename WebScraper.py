@@ -11,8 +11,7 @@ sys.setdefaultencoding('utf8')
 
 filename = "shoes.csv"
 f = open(filename,"w")
-#Brand, Description
-headers = "OriginalPrice, SalesPrice\n"
+headers = "Brand, Description, OriginalPrice, SalesPrice\n"
 f.write(headers)
 
 for i in range(1,10):
